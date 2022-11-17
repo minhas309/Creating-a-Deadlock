@@ -13,4 +13,5 @@ A process with two or more threads can enter deadlock when the following three c
 Here is a simple example of a deadlock condition:
 
 Thread 1 holds lock A and requests lock B 
+
 Thread 2 holds lock B and requests lock A
